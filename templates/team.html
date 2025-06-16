@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                font-size: large;
+                background-color: #c51129;
+                color: white;
+                padding: 1px 0;
+                text-align: center;
+            }
+            nav {
+                display: flex;
+                justify-content: space-between;
+                height: 60px;
+                background-color: #333;
+                padding: 0 10px;
+            }
+            .nav-left, .nav-right {
+                display: flex;
+            }
+            nav a {
+                color: white;
+                padding: 14px 20px;
+                text-decoration: none;
+                text-align: center;
+            }
+            nav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .team-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px; /* Space between images */
+                padding: 20px;
+            }
+
+            .pic1 {
+                width: 22%; /* Adjusted smaller size to fit more comfortably */
+                box-sizing: border-box;
+                text-align: center;
+                margin-bottom: 20px; /* Space below each image */
+            }
+
+            .pic1 img {
+                width: 100%;
+                height: 250px; /* Smaller fixed height */
+                object-fit: contain; /* Prevent excessive cropping */
+                border: 2px solid #ddd;
+                border-radius: 10px; /* Rounded corners */
+                padding: 5px; /* Padding around the image */
+            }
+
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 20px 0;
+                width: 100%;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>AUTOMATED BLOOD GROUP DETECTION</h1><br>
+            <nav>
+                <div class="nav-left">
+                    <a href="/">HOME</a>
+                    <a href="/about">ABOUT</a>
+                    <a href="/team">TEAM</a>
+                </div>
+                <div class="nav-right">
+                    <a href="/login">LOGIN</a>
+                    <a href="/signup">SIGNUP</a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="team-container">
+            <div class="pic1">
+                <img src="static/5.jpeg" alt="Team Member 1">
+                <h1>PRAJNA</h1>
+                <h3>4SN21AD035</h3>
+                <h3>SIT MANGALURU</h3>
+            </div>
+
+            <div class="pic1">
+                <img src="static/6.jpg" alt="Team Member 2">
+                <h1>SHREYA C S RAI</h1>
+                <h3>4SN21AD047</h3>
+                <h3>SIT MANGALURU</h3>
+            </div>
+
+            <div class="pic1">
+                <img src="static/7.jpg" alt="Team Member 3">
+                <h1>PRATHIKSHA J</h1>
+                <h3>4SN21AD037</h3>
+                <h3>SIT MANGALURU</h3>
+            </div>
+
+            <div class="pic1">
+                <img src="static/8.jpg" alt="Team Member 4">
+                <h1>LIKITHA R GATTY</h1>
+                <h3>4SN21AD025</h3>
+                <h3>SIT MANGALURU</h3>
+            </div>
+        </div>
+
+        <footer>
+            <h2>Contact Us</h2>
+            <p>Address: 123 Main Street, Hometown, Country</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@abgd.com</p>
+            <p>&copy; 2024 ABGD. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
